@@ -1,0 +1,35 @@
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #c2f4e3; }
+
+#wrapper {
+  background-color: #FEFEFD;
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px; }
+
+#app {
+  margin: 5px; }
+
+.header-text {
+  font-size: 3em;
+  color: #4D4D4D;
+  margin: 120px; }
+
+input {
+  margin: 20px;
+  width: 200px;
+  height: 20px; }
+
+ul {
+  margin: 0px; }
+
+button {
+  border: 0;
+  background-color: #FEFEFD;
+  color: #4D4D4D; }
+
+/*# sourceMappingURL=vue-styles.css.map */
