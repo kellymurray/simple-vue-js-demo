@@ -11,14 +11,21 @@
 
 <div id ="wrapper">
     <span class="header-text">My ToDo List</span>
+
   <div id="app">
-    <input v-model="newTodo" v-on:keyup.enter="addTodo" value="Add some Todos">
+
+    <input v-model="newTodo"
+    autofocus autocomplete="off"
+    v-on:keyup.enter="addTodo"
+    value="Add Todos">
+
     <ul>
       <li v-for="todo in todos">
         <span class="text">{{ todo.text }}</span>
         <button v-on:click="removeTodo($index)">X</button>
       </li>
     </ul>
+    
   </div>
 </div>
 
